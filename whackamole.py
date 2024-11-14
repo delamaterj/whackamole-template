@@ -1,8 +1,5 @@
-import pygame
-
-
 def main():
-    try:
+    '''try:
         pygame.init()
         # You can draw the mole with this snippet:
         # screen.blit(mole_image, mole_image.get_rect(topleft=(x,y)))
@@ -18,7 +15,8 @@ def main():
             pygame.display.flip()
             clock.tick(60)
     finally:
-        pygame.quit()
+        pygame.quit()'''
+    print("Hello World")
 
 
 if __name__ == "__main__":
